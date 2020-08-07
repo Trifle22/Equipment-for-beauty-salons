@@ -317,3 +317,17 @@ body {
     color: white;
     outline: none;
 }
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.brands img {
+    width: 149px;
+    height: 49px;
+    margin: 25px;
+}
