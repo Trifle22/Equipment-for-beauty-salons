@@ -221,3 +221,99 @@ body {
     padding: 9px 40px;
     margin-bottom: 25px;
 }
+
+.appeal .wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.appeal-cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.appeal-card:first-child {
+    display: flex;
+    flex-direction: column;
+    background-color: #f13c6e;
+    margin-right: 30px;
+    background: url(../img/envelope.png) #f13c6e;
+    background-repeat: no-repeat;
+    background-position: right 35px center;
+    background-size: 140px;
+    padding-right: 200px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-size: 140px;
+    max-width: 450px;
+}
+
+.appeal-card:last-child {
+    display: flex;
+    flex-direction: column;
+    background-color: #f13c6e;
+    background: url(../img/truck.png) #f13c6e;
+    background-position: right 35px center;
+    background-repeat: no-repeat;
+    padding-right: 200px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-size: 140px;
+    max-width: 450px;
+}
+
+.appeal-card h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    margin-bottom: 25px;
+    width: 250px;
+    margin-top: 35px;
+}
+
+.appeal-card p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.appeal-card input {
+    width: 225px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 5px 0;
+    padding-left: 15px;
+}
+
+.appeal-card-button {
+    background-color: #f13c6e;
+    border: 2px solid white;
+    width: 160px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    outline: none;
+}
