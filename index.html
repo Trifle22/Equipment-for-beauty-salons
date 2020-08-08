@@ -10,12 +10,13 @@
     <link rel="shortcut icon" href="img/shortcut-icon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.min.css">
 </head>
 
 <body>
     <header class="header">
         <div class="wrap">
-            <nav class="top-line-menu">
+            <nav class="top-line-menu animated fadeInDown">
                 <a href="#" class="top-line-menu-link">Доставка</a>
                 <a href="#" class="top-line-menu-link">Оплата</a>
                 <a href="#" class="top-line-menu-link">Отзывы</a>
@@ -23,18 +24,18 @@
                 <a href="#" class="top-line-menu-link">Контакты</a>
             </nav>
             <div class="mid-line">
-                <div class="logo">
+                <div class="logo animated fadeInLeft ">
                     <img src="img/logo.svg" alt="logo">
                     <h1>BEAUTY</h1>
                 </div>
                 <input type="search" class="search">
                 <div class="contact">
                     <p>8 (812) 123-45-67</p>
-                    <button>Обратный звонок</button>
+                    <button class="animated fadeInRight">Обратный звонок</button>
                 </div>
             </div>
             <div class="bottom-line">
-                <nav class="bottom-line-menu">
+                <nav class="bottom-line-menu animated fadeInUp">
                     <a href="#" class="bottom-line-menu-link">Парикмахерская</a>
                     <a href="#" class="bottom-line-menu-link">Барбершоп</a>
                     <a href="#" class="bottom-line-menu-link">Маникюр</a>
@@ -45,7 +46,7 @@
             </div>
         </div>
     </header>
-    <section class="sale">
+    <section class="sale animated fadeInUp">
         <div class="wrap">
             <div class="sale-text">
                 <h1>Супер кресло</h1>
@@ -56,7 +57,7 @@
     </section>
     <section class="offers">
         <div class="wrap">
-            <h1 class="offers-title">Специальные предложения</h1>
+            <h1 class="offers-title" data-aos="fade-up-right">Специальные предложения</h1>
             <div class="cards">
                 <div class="card">
                     <img src="img/offer-card-img.jpg" alt="chair">
@@ -219,6 +220,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
